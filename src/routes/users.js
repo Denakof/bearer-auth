@@ -7,6 +7,7 @@ const bccrypt = require("bcrypt");
 const base64 = require("base-64");
 const basicAuth = require("../middleware/basicAuth-signIn");
 const bearerAuth = require("../middleware/basicAuth-signUp");
+const bearerAuth = require('./middleware/bearer.js')
 
 // router.get('/users', getAll);
 // router.post('/users', create);
